@@ -1,0 +1,16 @@
+body {
+  font-family: var(--font-josefin);
+  background-image: url('/images/bg-desktop-light.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: var(--white);
+}
+
+#root {
+  display: grid;
+  grid-template-columns: 1fr min(80ch, 100%) 1fr;
+}
+
+main {
+  grid-column: 2;
+}
